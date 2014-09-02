@@ -404,8 +404,6 @@ public class TaskViewerWindow : EditorWindow
 
     void Save()
     {
-        Backup();
-
         DirectoryInfo directory = GetMainDirectory();
 
         StringBuilder output = new StringBuilder();
